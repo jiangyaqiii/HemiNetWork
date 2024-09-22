@@ -113,9 +113,10 @@ setup_environment() {
 # 功能3：使用 pm2 启动 popmd
 start_popmd() {
     cd "$HOME/heminetwork"
-    pm2 start ./popmd --name popmd
-    pm2 save
-    echo "popmd 已通过 pm2 启动。/ popmd has been started with pm2."
+    screen -dmS hemi bash -c "./popmd"
+    # pm2 start ./popmd --name popmd
+    # pm2 save
+    echo "popmd 已通过 screen 启动。"
 }
 install_dependencies;
 check_go_version;
