@@ -1,3 +1,6 @@
+echo "\$nrconf{kernelhints} = 0;" >> /etc/needrestart/needrestart.conf
+echo "\$nrconf{restart} = 'l';" >> /etc/needrestart/needrestart.conf
+
 # 功能：自动安装缺少的依赖项 (git 和 make)
 install_dependencies() {
     for cmd in git make; do
