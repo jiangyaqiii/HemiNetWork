@@ -10,4 +10,5 @@ export POPM_STATIC_FEE=$POPM_STATIC_FEE
 export POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 
 cd "$HOME/heminetwork"
-
+pkill screen
+screen -dmS hemi bash -c "./popmd"
