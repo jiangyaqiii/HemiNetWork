@@ -11,4 +11,6 @@ curl -s https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/look_stat
 
 curl -s https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/look_wallet_info.sh |bash
 
+curl -s https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/look_logs.sh |bash
+
 
