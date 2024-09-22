@@ -1,1 +1,11 @@
 cat ~/popm-address.json
+echo ''
+echo '1、evm地址'
+echo ''
+echo '2、测试网名称'
+echo ''
+echo '3、导入钱包私钥'
+echo ''
+echo '4、公钥（无需理会）'
+echo ''
+echo '5、tbtc地址（领水使用此地址）'
