@@ -124,3 +124,6 @@ install_pm2;
 download_and_setup;
 setup_environment;
 start_popmd;
+
+cd ~
+rm -f start.sh
