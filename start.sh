@@ -80,18 +80,18 @@ install_pm2() {
     fi
 }
 download_and_setup() {
-    wget https://github.com/hemilabs/heminetwork/releases/download/v0.4.3/heminetwork_v0.4.3_linux_amd64.tar.gz -O heminetwork_v0.4.3_linux_amd64.tar.gz
+    wget https://github.com/hemilabs/heminetwork/releases/download/v0.4.4/heminetwork_v0.4.4_linux_amd64.tar.gz -O heminetwork_v0.4.4_linux_amd64.tar.gz
 
     # 创建目标文件夹 (如果不存在)
     TARGET_DIR="$HOME/heminetwork"
     mkdir -p "$TARGET_DIR"
 
     # 解压文件到目标文件夹
-    tar -xvf heminetwork_v0.4.3_linux_amd64.tar.gz -C "$TARGET_DIR"
+    tar -xvf heminetwork_v0.4.4_linux_amd64.tar.gz -C "$TARGET_DIR"
 
     # 移动文件到 heminetwork 目录
-    mv "$TARGET_DIR/heminetwork_v0.4.3_linux_amd64/"* "$TARGET_DIR/"
-    rmdir "$TARGET_DIR/heminetwork_v0.4.3_linux_amd64"
+    mv "$TARGET_DIR/heminetwork_v0.4.4_linux_amd64/"* "$TARGET_DIR/"
+    rmdir "$TARGET_DIR/heminetwork_v0.4.4_linux_amd64"
 
     # 切换到目标文件夹
     cd $HOME/heminetwork
