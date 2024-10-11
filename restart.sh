@@ -48,7 +48,7 @@ else
     echo "备份文件不存在，无法恢复。"
 fi
 #===================================================================================================================================================================================
-cd "$HOME/heminetwork"
+cd "$HOME/heminetwork_v0.4.4_linux_amd64"
 cat ~/popm-address.json
 
 # 自动抓取 private_key
@@ -59,7 +59,7 @@ export POPM_BTC_PRIVKEY=$POPM_BTC_PRIVKEY
 export POPM_STATIC_FEE=$POPM_STATIC_FEE
 export POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 
-cd "$HOME/heminetwork"
+cd "$HOME/heminetwork_v0.4.4_linux_amd64"
 # screen -S hemi -X quit
 screen -dmS hemi bash -c "./popmd"
 
