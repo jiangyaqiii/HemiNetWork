@@ -13,9 +13,9 @@ do
     screen -dmS hemi bash -c "./popmd"
   fi
   sleep 10  # 每隔10秒检查一次
-done' > regular.sh
+done' > regular_hemi.sh
 ##给予执行权限
-chmod +x regular.sh
+chmod +x regular_hemi.sh
 # ================================================================================================================================
 echo ' [Unit]
 Description=Restart hemi Service
@@ -23,7 +23,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /root/regular.sh
+ExecStart=/bin/bash /root/regular_hemi.sh
 
 [Install]
 WantedBy=multi-user.target' > /etc/systemd/system/hemi-restart.service
