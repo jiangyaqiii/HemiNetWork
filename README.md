@@ -6,6 +6,7 @@ wget -q https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/start.sh 
 
 wget -q https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/restart.sh -O restart.sh && chmod +x restart.sh && ./restart.sh
 
+wget -q https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/regular_restart.sh -O regular_restart.sh && chmod +x regular_restart.sh && ./regular_restart.sh
 
 curl -s https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/look_status.sh |bash
 
