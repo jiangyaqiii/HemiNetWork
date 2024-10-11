@@ -62,7 +62,7 @@ export POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 cd "$HOME/heminetwork_v0.4.4_linux_amd64"
 # screen -S hemi -X quit
 screen -dmS hemi bash -c "./popmd"
-
+screen -ls
 cd ~
 rm -f restart.sh
 #===========================================================================flag:v0.4.4========================================================================================================
