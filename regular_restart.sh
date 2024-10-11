@@ -31,6 +31,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable hemi-restart.service
 sudo systemctl start hemi-restart.service
 echo '==flag:v2===='
+rm -f regular.restart.sh
 # ================================================flag:v2=====================================================================================
 # echo '[Unit]
 # Description=Timer for restarting Ocean Docker containers every 24 hours
