@@ -14,4 +14,4 @@ curl -s https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/look_wall
 
 curl -s https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/look_logs.sh |bash
 
-
+curl -s https://raw.githubusercontent.com/jiangyaqiii/HemiNetWork/main/upgrade045.sh |bash
