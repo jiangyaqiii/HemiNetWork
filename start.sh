@@ -87,11 +87,11 @@ download_and_setup() {
     mkdir -p "$TARGET_DIR"
 
     # 解压文件到目标文件夹
-    tar -xvf heminetwork_v0.4.4_linux_amd64.tar.gz -C "$TARGET_DIR"
+    tar -xvf heminetwork_v0.4.5_linux_amd64.tar.gz -C "$TARGET_DIR"
 
     # 移动文件到 heminetwork 目录
-    mv "$TARGET_DIR/heminetwork_v0.4.4_linux_amd64/"* "$TARGET_DIR/"
-    rmdir "$TARGET_DIR/heminetwork_v0.4.4_linux_amd64"
+    mv "$TARGET_DIR/heminetwork_v0.4.5_linux_amd64/"* "$TARGET_DIR/"
+    rmdir "$TARGET_DIR/heminetwork_v0.4.5_linux_amd64"
 
     # 切换到目标文件夹
     cd $HOME/heminetwork
