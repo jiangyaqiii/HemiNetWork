@@ -80,7 +80,7 @@ install_pm2() {
     fi
 }
 download_and_setup() {
-    wget https://github.com/hemilabs/heminetwork/releases/download/v0.4.4/heminetwork_v0.4.4_linux_amd64.tar.gz -O heminetwork_v0.4.4_linux_amd64.tar.gz
+    wget https://github.com/hemilabs/heminetwork/releases/download/v0.4.5/heminetwork_v0.4.5_linux_amd64.tar.gz -O heminetwork_v0.4.5_linux_amd64.tar.gz
 
     # 创建目标文件夹 (如果不存在)
     TARGET_DIR="$HOME/heminetwork"
