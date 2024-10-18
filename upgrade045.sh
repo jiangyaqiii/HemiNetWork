@@ -2,7 +2,7 @@
 systemctl stop hemi-restart.service
 pkill screen
 #===================================================================================================================================================================================
-cd "$HOME/heminetwork_v0.4.5_linux_amd64"
+cd "$HOME/heminetwork"
 cat ~/popm-address.json
 
 # 自动抓取 private_key
