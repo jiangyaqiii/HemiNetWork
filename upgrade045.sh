@@ -19,7 +19,7 @@ echo '#!/bin/bash
 while true
 do
   if ! screen -list | grep -q "hemi"; then
-    cd ~/heminetwork_v0.4.5_linux_amd64
+    cd ~/heminetwork
     cat ~/popm-address.json
     POPM_BTC_PRIVKEY=$(jq -r '.private_key' ~/popm-address.json)
     export POPM_BTC_PRIVKEY=$POPM_BTC_PRIVKEY
