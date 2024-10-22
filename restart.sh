@@ -1,8 +1,8 @@
 #===============================================================================================================================================================
 screen -S hemi -X quit
-URL="https://github.com/hemilabs/heminetwork/releases/download/v0.4.4/heminetwork_v0.4.4_linux_amd64.tar.gz"
-FILENAME="heminetwork_v0.4.3_linux_amd64.tar.gz"
-DIRECTORY="/root/heminetwork_v0.4.3_linux_amd64"
+URL="https://github.com/hemilabs/heminetwork/releases/download/v0.4.5/heminetwork_v0.4.5_linux_amd64.tar.gz"
+FILENAME="heminetwork_v0.4.5_linux_amd64.tar.gz"
+DIRECTORY="/root/heminetwork_v0.4.5_linux_amd64"
 ADDRESS_FILE="$HOME/popm-address.json"
 BACKUP_FILE="$HOME/popm-address.json.bak"
 
@@ -59,12 +59,12 @@ export POPM_BTC_PRIVKEY=$POPM_BTC_PRIVKEY
 export POPM_STATIC_FEE=$POPM_STATIC_FEE
 export POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 
-cd "$HOME/heminetwork_v0.4.4_linux_amd64"
+cd "$HOME/heminetwork_v0.4.5_linux_amd64"
 # screen -S hemi -X quit
 screen -dmS hemi bash -c "./popmd"
 screen -ls
 cd ~
 rm -f restart.sh
 #===========================================================================flag:v0.4.4========================================================================================================
-echo '========flag:v0.4.4=============='
+echo '========flag:v0.4.5=============='
 
